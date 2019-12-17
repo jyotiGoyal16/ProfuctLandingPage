@@ -1,0 +1,147 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin:0 auto;
+}
+li{
+    list-style-type: none;
+    display:inline;
+    padding:0px 15px;
+    font-size:20px;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    display:flex;
+    position:fixed;
+    top:0;
+    width:100%;
+    font-family:'Sofia';
+    background:white;
+    z-index:2;
+}
+#logoContainer{
+    flex-grow:1;
+    font-family:'Sofia';
+    font-size:26px;
+    font-weight:bold;
+    margin-top:15px;
+}
+img{
+    vertical-align:middle;
+}
+#brandName{
+    display:inline;
+    color:#05A792;
+}
+a:link, a:visited {
+    /* background-color: #f44336; */
+    color: #05A792;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight:bold;
+  }
+  
+  a:hover, a:active {
+    background-color: #05A792;
+    color:white;
+    /* border:1px solid #05A792; */
+  }
+  main{
+    margin:150px 300px 0px 300px;
+    padding:24px;
+    font-family:"Farsan";
+    background:rgba(255,127,80, 0.1);
+    text-align:center;
+  }
+  #about{
+      line-height:3;
+      text-transform:uppercase;
+  }
+  .sectionHeaders{
+    font-family:'Sofia';
+    font-size:26px;
+    color: #05A792;
+    font-weight:bold;
+    text-transform:none;
+    margin-top:50px;
+  }
+  #choicesContainer{
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:center;
+  }
+  .cakesChoices{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    margin:20px 15px;
+  }
+  .cakesChoices:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  .boldText{
+      font-weight:bold;
+  }
+  .cardLayout{
+      border:1px solid gray;
+      border-radius:4px;
+      padding:3px;
+      width:15%;
+      margin:20px 15px;
+  }
+  .wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  footer{
+      height:100px;
+    margin:30px 300px 0px 300px;
+    padding:20px;
+    background:rgba(5,167,146, 0.1);
+  }
+  .footerLinks{
+      display: flex;
+      justify-content: flex-end;
+  }
+  .contactUs{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .emailInput{
+      padding:10px;
+      border: 2px solid #05A792;
+      color:#05A792;
+      border-radius:4px;
+      width:200px;
+  }
+  #submit{
+      border:1px solid #05A792;
+      border-radius:2px;
+      padding:10px;
+      background: #05A792;
+      color:white;
+      margin-top:5px;
+      font-size:16px;
+      margin-left:10px;
+      margin-bottom:5px;
+  }
+  .contactText{
+      color:#05A792;
+  }
+  .floatElement{
+      float:left;
+  }
+  #form{
+      display:flex;
+      margin-bottom:10px;
+  }
+  @media (max-width: 900px){
+      li{
+          font-size:14px;
+      }
+  }

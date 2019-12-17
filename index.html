@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Farsan' rel='stylesheet'>
+    <link rel="stylesheet" href="./productLandingPage.css">
+    <title>Cake Factory</title>
+</head>
+<body>
+    <header id="header">
+        <div id="logoContainer">
+            <img id="header-img" src="logo.jpeg" alt="Craft Factory Logo" width="50px" height="50px">
+            <div id="brandName">Cake Factory</div>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#about">About Us</a></li>
+                <li><a class="nav-link" href="#choices">Choices For You</a></li>
+                <li><a class="nav-link" href="#servingSize">Serving Sizes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <header class="sectionHeaders">Get to know us</header>
+            <div>
+                WE ARE NOT LIKE EVERY OTHER BAKERY; WE CREATE ONE-OF-A-KIND CAKES FOR WEDDINGS, BIRTHDAYS, 
+                CORPORATE EVENTS OR ANY CELEBRATION USING ONLY THE BEST LOCAL AND SUSTAINABLE INGREDIENTS. 
+                EVERYTHING WITH OUR NAME ON IT IS MADE 100% FROM SCRATCH.
+                FROM DESIGN CONCEPT TO CAKE TASTINGS, WE MAKE THE PROCESS SIMPLE AND PLEASANT. 
+                FROM START TO FINISH, WE PUT CARE INTO EVERY PART OF THE PROCESS. FROM BRAINSTORMING, UNTIL ADDING THE FINAL DETAILS, 
+                WE CONSIDER YOUR PERSONALITY AND CATER TO THE EVENT. 
+                OUR CUSTOMERS BECOME OUR FAMILY, AND WE MAKE SURE EVERYONE FEELS AT HOME THE MINUTE THEY STEP INTO OUR CAFE. 
+                WE CAN'T WAIT TO DO WHAT WE LOVE TO DO (AND DO WELL)...FOR YOU.
+            
+                IN THE END, YOU CAN EXPECT A FABULOUS CAKE THAT YOUR GUESTS WILL LOVE TO LOOK AT...AND MORE IMPORTANTLY LOVE TO EAT.
+            </div>
+            <br/>
+            <div>
+                Let's see a trailer of what we do at Cake Factory.
+                Ever heard of "Pull-apart cupcakes", No ? Hmm...Let's see the video to know what it is.
+            </div>
+            <br/>
+            <div>
+                <iframe 
+                    id="video"
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/6uqywZaIISw" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+            </div>
+        </section>
+        <br/>
+        <br/>
+        <section id="choices">
+            <header class="sectionHeaders">Know what are your choices when you shop with us</header>
+            <div id="choicesContainer">
+                <div class="cakesChoices">
+                    <img src="cupcakes.jpg" alt="cupcakes" width="150px" height="100px">
+                    <p class="boldText">CUPCAKES</p>
+                </div>
+                <div class="cakesChoices">
+                    <img src="desserts.jpg" alt="desserts" width="150px" height="100px">
+                    <p class="boldText">DESSERTS</p>
+                </div>
+                <div class="cakesChoices">
+                    <img src="donuts.jpg" alt="donuts" width="150px" height="100px">
+                    <p class="boldText">DONUTS</p>
+                </div>
+                <div class="cakesChoices">
+                    <img src="pastries.jpeg" alt="pastries" width="150px" height="100px">
+                    <p class="boldText">PASTRIES</p>
+                </div>
+                <div class="cakesChoices">
+                    <img src="pullApartCake.jpg" alt="pull apart cupcakes" width="150px" height="100px">
+                    <p class="boldText">PULL APART CUPCAKES</p>
+                </div>
+            </div>
+        </section>
+        <section id="servingSize">
+                <header class="sectionHeaders">Have a look at our servings</header>
+                <div class="wrapper">
+                <div class="cardLayout">
+                    <h3>Basic Single Round</h3>
+                    <p>6"- 7 svgs</p>
+                    <p>8"- 12 svgs</p>
+                    <p>9"- 17 svgs</p>
+                    <p>10"- 21 svgs</p>
+                    <p>12"- 30 svgs</p>
+                    <p>14"- 41 svgs</p>
+                </div>
+                <div class="cardLayout">
+                    <h3>Basic Double Round</h3>
+                    <p>6"- 14 svgs</p>
+                    <p>8"- 24 svgs</p>
+                    <p>9"- 34 svgs</p>
+                    <p>10"- 42 svgs</p>
+                    <p>12"- 60 svgs</p>
+                    <p>14"- 82 svgs</p>
+                </div>
+                <div class="cardLayout">
+                    <h3>Sheet Cakes</h3>
+                    <p>1/4 Sheet 25 svgs</p>
+                    <p>1/2 Sheet 50 svgs</p>
+                    <p>3/4 Sheet 75 svgs</p>
+                    <p>Full Sheet 100 svgs</p>
+                </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="floatElement">
+            <h3 class="contactText">Contact Us</h3>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" placeholder="Enter your email" class="emailInput" required>
+                <input type="submit" id="submit" value="Send" align="right">
+            </form>
+        </div>
+        <ul class="footerLinks">
+            <li>Privacy</li>
+            <li>Terms</li>
+        </ul>
+        <span class="footerLinks">Copyright &copy; 2019, Cake Factory</span>
+    </footer>
+</body>
+</html>
